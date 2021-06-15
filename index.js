@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3001;
+
 //Loads the handlebars module
 const handlebars = require('express-handlebars');
 //Sets our app to use the handlebars engine
@@ -15,4 +15,5 @@ app.get('/', (req, res) => {
     res.render('main', { layout: 'index' });
 });
 
-app.listen(port, () => console.log(`App listening to port ${port}`));
+app.listen(process.env.PORT || 3001, 
+	() => console.log("Server is running..."));

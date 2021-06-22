@@ -1,13 +1,11 @@
 /**
-* Template Name: Day - v4.3.0
-* Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
-* Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -30,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -62,6 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
+
 #preloader {
   position: fixed;
   top: 0;
@@ -108,6 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
+
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
@@ -117,6 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
+
 #topbar {
   background: #191919;
   font-size: 15px;
@@ -160,6 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
 #header {
   background: rgba(25, 25, 25, 0.95);
   transition: all 0.5s;
@@ -185,20 +188,30 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#header .logo img {
+/* #header .logo img {
   max-height: 40px;
-}
+} */
 
 .scrolled-offset {
   margin-top: 70px;
 }
 
+.img-nav {
+  height: auto;
+  width: 200px;
+  padding-bottom: 23px;
+  /* max-height: 72px;
+  max-width: 250px; */
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+
 /**
 * Desktop Navigation 
 */
+
 .navbar {
   padding: 0;
 }
@@ -215,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.navbar > ul > li {
+.navbar>ul>li {
   margin-left: 5px;
 }
 
@@ -236,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a {
   background: #cc1616;
 }
 
@@ -268,11 +281,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover>a {
   color: #fff;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -284,7 +297,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -295,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
-  .navbar .dropdown .dropdown:hover > ul {
+  .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
 }
@@ -303,6 +316,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
 * Mobile Navigation 
 */
+
 .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
@@ -362,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #191919;
 }
 
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover>a {
   color: #cc1616;
   background: none;
 }
@@ -395,17 +409,18 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover>a {
   color: #cc1616;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
 
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
 #hero {
   width: 100%;
   height: calc(100vh - 110px);
@@ -484,6 +499,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -538,6 +554,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -565,6 +582,7 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
+
 .why-us {
   padding-top: 10px;
 }
@@ -610,6 +628,7 @@ section {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
+
 .clients {
   background: #f2f2f2;
   padding: 15px 0;
@@ -638,6 +657,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
 .services .icon-box {
   text-align: center;
   padding: 80px 20px;
@@ -716,6 +736,7 @@ section {
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
+
 .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
@@ -754,6 +775,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
@@ -859,6 +881,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+
 .portfolio-details {
   padding-top: 40px;
 }
@@ -903,7 +926,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
 
@@ -924,6 +947,7 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+
 .pricing .box {
   padding: 20px;
   background: #f9f9f9;
@@ -1039,6 +1063,7 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+
 .team .member {
   text-align: center;
   margin-bottom: 20px;
@@ -1093,6 +1118,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .contact .info-box {
   color: #444444;
   text-align: center;
@@ -1136,7 +1162,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -1220,6 +1246,7 @@ section {
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
+
 .breadcrumbs {
   padding: 15px 0;
   background: #efefef;
@@ -1239,11 +1266,11 @@ section {
   font-size: 14px;
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #333333;
@@ -1253,6 +1280,7 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
 #footer {
   background: #0c0c0c;
   padding: 0 0 30px 0;

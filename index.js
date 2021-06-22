@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 
 app.get('/social', (req, res) => {
     //Serves the body of the page aka "main.handlebars" to the container //aka "index.handlebars"
-    res.render('main', { layout: 'social' });
+    res.render('main', { layout: 'social-feed' });
 });
 
 app.listen(process.env.PORT || 3001, 

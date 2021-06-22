@@ -18,9 +18,5 @@ app.get('/social', (req, res) => {
     res.render('social', { layout: 'index', title: 'Sweat Nashville - Social'});
 });
 
-// Post requests
-
-
-
 app.listen(process.env.PORT || 3001, 
 	() => console.log("Server is running..."));
